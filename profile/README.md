@@ -1,4 +1,4 @@
-# docker run --rm j0hnniewa1ker/readme:rpgle > README.md                        
+# docker run --rm j0hnniewa1ker/readme:docker > README.md                       
 ```                                                                             
         _  ___  _                 _                    _ _                      
        (_)/ _ \| |__  _ __  _ __ (_) _____      ____ _/ | | _____ _ __         
@@ -8,32 +8,7 @@
      |__/                                                                       
 ```                                                                             
 ## Summary                                                                      
-- I most enjoy deciphering the inner workings of legacy and forgotten systems   
-  - documenting what I discover into issues to track with the team              
-  - strategizing with stakeholders, planning what to modernize next             
-- Broad Experience                                                              
-  - Started my Career in building PCs, quickly promoted to Network Engineer     
-  - Novell Consultant helping clients with Netware, Zenworks, GroupWise         
-  - Systems Engineer at Microsoft configuring routers, switches, servers        
-  - Test Engineer at Microsoft focusing on deployment and performance testing   
-  - Release Engineer at Adobe migrating legacy build systems to jenkins         
-  - Application Developer at Starbucks                                          
-  - Technology Engineer at IBM designing MVPs with clients                      
-    - Container workshops                                                       
-    - Openshift workshops                                                       
-    - Ansible wokshops                                                          
-    - Restricted System demos on z15 implementing OpenShift solutions           
-    - z/OS pipeline demos                                                       
-- Experience installing Mirrored SQL Servers, Log Shipping, Data Warehouses     
-  - Tracking down, resolving replication issues                                 
-  - Writing automation including SQL queries                                    
-    - validate system restores                                                  
-    - migration of DBs to new hosts                                             
-    - performance testing                                                       
-- committed to coursework and becoming solidly proficient within 12 months.     
-  - RPGLE                                                                       
-  - RPG/400                                                                     
-  - CL                                                                          
+  - I want to work at Docker                                                    
 ## Experience                                                                   
 ### IBM                                                 June 2021 - October 2023
 Client Engineering Technology Engineer                                          
@@ -67,14 +42,10 @@ Build Engineer
 --------------------------------------------------------------------------------
 ```                                                                             
 gcc -o readme --static -g readme.c                                              
-docker build . -t j0hnniewa1ker/readme:rpgle                                    
-docker push j0hnniewa1ker/readme:rpgle                                          
+docker build . -t j0hnniewa1ker/readme:docker                                   
+docker push j0hnniewa1ker/readme:docker                                         
 git add README.md readme.c                                                      
-git commit -m "SQL section 4 spaces off"                                      
+git commit -m "Docker - Technical Writer #4"                                  
 git push                                                                        
 ```                                                                             
-## [A1](https://github.com/5eed1ab/A1)                                          
-- Makefile                                                                      
-- [GitBucket||Gitea||GitLab?](https://github.com/J0hnnieWa1ker/.github/issues/1)
-- Jenkins or Drone for Continuous Integration                                   
-
+[Docker-Technical Writer #4](https://github.com/J0hnnieWa1ker/.github/issues/4) 

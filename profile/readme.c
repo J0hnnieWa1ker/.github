@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 const char header[] =
-"# docker run --rm j0hnniewa1ker/readme:rpgle > README.md                        \n"
+"# docker run --rm j0hnniewa1ker/readme:docker > README.md                       \n"
 "```                                                                             \n"
 "        _  ___  _                 _                    _ _                      \n"
 "       (_)/ _ \\| |__  _ __  _ __ (_) _____      ____ _/ | | _____ _ __         \n"
@@ -14,32 +14,7 @@ const char header[] =
 "";
 const char summary[] =
 "## Summary                                                                      \n"
-"- I most enjoy deciphering the inner workings of legacy and forgotten systems   \n"
-"  - documenting what I discover into issues to track with the team              \n"
-"  - strategizing with stakeholders, planning what to modernize next             \n"
-"- Broad Experience                                                              \n"
-"  - Started my Career in building PCs, quickly promoted to Network Engineer     \n"
-"  - Novell Consultant helping clients with Netware, Zenworks, GroupWise         \n"
-"  - Systems Engineer at Microsoft configuring routers, switches, servers        \n"
-"  - Test Engineer at Microsoft focusing on deployment and performance testing   \n"
-"  - Release Engineer at Adobe migrating legacy build systems to jenkins         \n"
-"  - Application Developer at Starbucks                                          \n"
-"  - Technology Engineer at IBM designing MVPs with clients                      \n"
-"    - Container workshops                                                       \n"
-"    - Openshift workshops                                                       \n"
-"    - Ansible wokshops                                                          \n"
-"    - Restricted System demos on z15 implementing OpenShift solutions           \n"
-"    - z/OS pipeline demos                                                       \n"
-"- Experience installing Mirrored SQL Servers, Log Shipping, Data Warehouses     \n"
-"  - Tracking down, resolving replication issues                                 \n"
-"  - Writing automation including SQL queries                                    \n"
-"    - validate system restores                                                  \n"
-"    - migration of DBs to new hosts                                             \n"
-"    - performance testing                                                       \n"
-"- committed to coursework and becoming solidly proficient within 12 months.     \n"
-"  - RPGLE                                                                       \n"
-"  - RPG/400                                                                     \n"
-"  - CL                                                                          \n"
+"  - I want to work at Docker                                                    \n"
 "## Experience                                                                   \n"
 "";
 const char ibm[] =
@@ -85,16 +60,13 @@ const char microsoft[] =
 const char process[] =
 "```                                                                             \n"
 "gcc -o readme --static -g readme.c                                              \n"
-"docker build . -t j0hnniewa1ker/readme:rpgle                                    \n"
-"docker push j0hnniewa1ker/readme:rpgle                                          \n"
+"docker build . -t j0hnniewa1ker/readme:docker                                   \n"
+"docker push j0hnniewa1ker/readme:docker                                         \n"
 "git add README.md readme.c                                                      \n"
-"git commit -m \"SQL section 4 spaces off\"                                      \n"
+"git commit -m \"Docker - Technical Writer #4\"                                  \n"
 "git push                                                                        \n"
 "```                                                                             \n"
-"## [A1](https://github.com/5eed1ab/A1)                                          \n"
-"- Makefile                                                                      \n"
-"- [GitBucket||Gitea||GitLab?](https://github.com/J0hnnieWa1ker/.github/issues/1)\n"
-"- Jenkins or Drone for Continuous Integration                                   \n"
+"[Docker-Technical Writer #4](https://github.com/J0hnnieWa1ker/.github/issues/4) \n"
 "";
 int main() {
   syscall(SYS_write, STDOUT_FILENO, header, sizeof(header) - 1);
