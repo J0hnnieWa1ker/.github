@@ -1,7 +1,7 @@
 #include <sys/syscall.h>
 #include <unistd.h>
 
-const char j0hnniewa1ker[] =	
+const char header[] =
 "# docker run --rm j0hnniewa1ker/readme:rpgle > README.md                        \n"
 "```                                                                             \n"
 "        _  ___  _                 _                    _ _                      \n"
@@ -11,6 +11,8 @@ const char j0hnniewa1ker[] =
 "      _/ |\\___/|_| |_|_| |_|_| |_|_|\\___| \\_/\\_/ \\__,_|_|_|\\_\\___|_|     \n"
 "     |__/                                                                       \n"
 "```                                                                             \n"
+"";
+const char summary[] =
 "## Summary                                                                      \n"
 "- I most enjoy deciphering the inner workings of legacy and forgotten systems   \n"
 "  - documenting what I discover into issues to track with the team              \n"
@@ -39,11 +41,15 @@ const char j0hnniewa1ker[] =
 "  - RPG/400                                                                     \n"
 "  - CL                                                                          \n"
 "## Experience                                                                   \n"
+"";
+const char ibm[] =
 "### IBM                                                 June 2021 - October 2023\n"
 "Client Engineering Technology Engineer                                          \n"
 "- Mentored clients and colleagues great practices around learning new skills    \n"
 "- Created content for learning Cloud Native approaches                          \n"
 "--------------------------------------------------------------------------------\n"
+"";
+const char starbucks[] =
 "### Starbucks                                          September 2016 - May 2021\n"
 "Application Developer                                                           \n"
 "- Nginx Project built with Chef Automate including Kitchen and Inspec validation\n"
@@ -54,21 +60,29 @@ const char j0hnniewa1ker[] =
 "  - pushed for code to be converted to .Net core                                \n"
 "  - deployed 20,000 docker containers daily to test IoT Hub application         \n"
 "--------------------------------------------------------------------------------\n"
+"";
+const char efinancial[] =
 "### Efinancial                                    November 2014 - September 2016\n"
 "Devops Engineer                                                                 \n"
 "- Built dev, test and pre-producion environments in AWS via PowerShell          \n"
 "- Upgraded TFS Server and mentored team how to use Release Manager              \n"
 "--------------------------------------------------------------------------------\n"
+"";
+const char adobe[] =
 "### Adobe (contact)                                     June 2013 - October 2014\n"
 "Release Engineer                                                                \n"
 "- Migrated legacy build systems to Jenkins and mentored teams how to manage them\n"
 "- Developed WinPE to automate Windows deployments as VMs or on bare metal       \n"
 "--------------------------------------------------------------------------------\n"
+"";
+const char microsoft[] =
 "### Microsoft (contract)                               February 2013 - June 2013\n"
 "Build Engineer                                                                  \n"
 "- Responsible for build automation, scripting, and release implementation       \n"
 "- Validated deployments passed QA before releasing to Pre-Production|Production \n"
 "--------------------------------------------------------------------------------\n"
+"";
+const char process[] =
 "```                                                                             \n"
 "gcc -o readme --static -g readme.c                                              \n"
 "docker build . -t j0hnniewa1ker/readme:rpgle                                    \n"
@@ -81,8 +95,15 @@ const char j0hnniewa1ker[] =
 "- Makefile                                                                      \n"
 "- [GitBucket||Gitea||GitLab?](https://github.com/J0hnnieWa1ker/.github/issues/1)\n"
 "- Jenkins or Drone for Continuous Integration                                   \n"
-"\n";
+"";
 int main() {
-  syscall(SYS_write, STDOUT_FILENO, j0hnniewa1ker, sizeof(j0hnniewa1ker) - 1);
+  syscall(SYS_write, STDOUT_FILENO, header, sizeof(header) - 1);
+  syscall(SYS_write, STDOUT_FILENO, summary, sizeof(summary) - 1);
+  syscall(SYS_write, STDOUT_FILENO, ibm, sizeof(ibm) - 1);
+  syscall(SYS_write, STDOUT_FILENO, starbucks, sizeof(starbucks) - 1);
+  syscall(SYS_write, STDOUT_FILENO, efinancial, sizeof(efinancial) - 1);
+  syscall(SYS_write, STDOUT_FILENO, adobe, sizeof(adobe) - 1);
+  syscall(SYS_write, STDOUT_FILENO, microsoft, sizeof(microsoft) - 1);
+  syscall(SYS_write, STDOUT_FILENO, process, sizeof(process) - 1);
   return 0;
 }
