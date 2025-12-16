@@ -10,7 +10,7 @@
 ## Summary                                                                      
   - I want to work at Docker                                                    
 - Inspiration from [scratch](https://hub.docker.com/_/scratch) this resume      
-  - endevers to "Write clear, accurate, well-structured, and consistent technical content from scratch."                                                        
+  - endeavors to "Write clear, accurate, well-structured, and consistent technical content from scratch."                                                       
 - Championing Workshops-as-Containers and `hello-world` style newsletters       
 - This role appears to be the place to spend more of my time on improving demos:
   - [a1](https://hub.docker.com/r/j0hnniewa1ker/a1)                             
