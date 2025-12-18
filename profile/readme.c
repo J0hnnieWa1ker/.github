@@ -1,8 +1,7 @@
-#include <sys/syscall.h>
-#include <unistd.h>
+#include <stdio.h>
 
 const char header[] =
-"# docker run --rm j0hnniewa1ker/readme:docker > README.md                       \n"
+"`docker run --rm j0hnniewa1ker/readme:docker > README.md`                       \n"
 "```                                                                             \n"
 "        _  ___  _                 _                    _ _                      \n"
 "       (_)/ _ \\| |__  _ __  _ __ (_) _____      ____ _/ | | _____ _ __         \n"
@@ -84,13 +83,13 @@ const char process[] =
 "[Docker-Technical Writer #4](https://github.com/J0hnnieWa1ker/.github/issues/4) \n"
 "";
 int main() {
-  syscall(SYS_write, STDOUT_FILENO, header, sizeof(header) - 1);
-  syscall(SYS_write, STDOUT_FILENO, summary, sizeof(summary) - 1);
-  syscall(SYS_write, STDOUT_FILENO, ibm, sizeof(ibm) - 1);
-  syscall(SYS_write, STDOUT_FILENO, starbucks, sizeof(starbucks) - 1);
-  syscall(SYS_write, STDOUT_FILENO, efinancial, sizeof(efinancial) - 1);
-  syscall(SYS_write, STDOUT_FILENO, adobe, sizeof(adobe) - 1);
-  syscall(SYS_write, STDOUT_FILENO, microsoft, sizeof(microsoft) - 1);
-  syscall(SYS_write, STDOUT_FILENO, process, sizeof(process) - 1);
+  printf("%s",header);
+  printf("%s",summary);
+  printf("%s",ibm);
+  printf("%s",starbucks);
+  printf("%s",efinancial);
+  printf("%s",adobe);
+  printf("%s",microsoft);
+  printf("%s",process);
   return 0;
 }
