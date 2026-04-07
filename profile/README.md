@@ -1,17 +1,5 @@
-`docker run --rm j0hnniewa1ker/readme:ecmc > README.md`                         
+`docker run --rm j0hnniewa1ker/readme`                         
 # [J0hnniewa1ker](https://www.linkedin.com/in/j0hnniewa1ker/)                   
-## Summary                                                                      
-- After moving back to Kansas I lost motivation in competing in a high stress environment so I stepped back and focused on gardening. So a supportive, family-like culture sounds very attractive.                                     
-## Recommendations                                                              
-- Jon would be a great fit for any technical leadership role. His ability to solve problems, methodically tackle large projects, teach those who are less tenured, and his drive to always keep learning have always impressed me and will be sure to bring value to any future employers.
-  - Andrew 
-- I strongly recommend Jon for any engineering leadership role. He brings a blend of technical depth, strategic thinking, and people-first leadership.
-  - Mike 
-- His balanced approach and collaborative mindset elevate every project he touches.
-  - Steve 
-- Jon’s leadership in this engagement demonstrated that he can absorb technical requirements and turn them into strategies that moves teams forward.
-  - Chris 
-- more here: https://www.linkedin.com/in/j0hnniewa1ker/details/recommendations  
 ## Experience                                                                   
 ### IBM
 #### Client Engineering Technology Engineer
@@ -55,15 +43,4 @@
 2/2013 - 6/2013
 - Responsible for build automation, scripting, and release implementation       
 - Validated deployments passed QA before releasing HR and Staffing systems      
---------------------------------------------------------------------------------
- 
-```                                                                             
-gcc -o readme --static -g readme.c                                              
-docker build . -t j0hnniewa1ker/readme:ecmc                                     
-docker push j0hnniewa1ker/readme:ecmc                                           
-git checkout -b ecmc                                                            
-git add README.md readme.c                                                      
-git commit -m "Ellsworth County Medical Center - IT Manager #8"               
-git push                                                                        
-```                                                                             
-[ECMC - IT Manager #8](https://github.com/J0hnnieWa1ker/.github/issues/8)       
+--------------------------------------------------------------------------------  
