@@ -1,5 +1,13 @@
-`docker run --rm j0hnniewa1ker/readme`                         
-# [J0hnniewa1ker](https://www.linkedin.com/in/j0hnniewa1ker/)                   
+```
+    _  ___  _                 _                    _ _                    
+   (_)/ _ \| |__  _ __  _ __ (_) _____      ____ _/ | | _____ _ __       
+   | | | | | '_ \| '_ \| '_ \| |/ _ \ \ /\ / / _` | | |/ / _ \ '__|
+   | | |_| | | | | | | | | | | |  __/\ V  V / (_| | |   <  __/ |        
+  _/ |\___/|_| |_|_| |_|_| |_|_|\___| \_/\_/ \__,_|_|_|\_\___|_|    
+ |__/ 
+```
+
+ [LinkedIn](https://www.linkedin.com/in/j0hnniewa1ker) | [YouTube](https://www.youtube.com/J0hnnieWa1ker) | `docker run --rm j0hnniewa1ker/readme`                  
 ## Experience                                                                   
 ### IBM
 #### Client Engineering Technology Engineer
