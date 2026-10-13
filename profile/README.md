@@ -9,9 +9,6 @@
 
  [LinkedIn](https://www.linkedin.com/in/j0hnniewa1ker) | [YouTube](https://www.youtube.com/J0hnnieWa1ker) | `docker run --rm j0hnniewa1ker/readme`
 
- <img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/fff30687-825d-4864-88d5-fb40753adbf7" />
-
-
  ## [Experience](https://www.linkedin.com/in/j0hnniewa1ker/details/experience/)
 
 ### Information Technology Technician
